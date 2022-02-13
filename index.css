@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+ul {
+  margin: 0 10%;
+}
+
+.list li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  border: 2px solid black;
+  padding-left: 0;
+}
+
+.contact-ul li {
+  text-align: start;
+}
+
+.list li:nth-child(even) {
+  background-color: #cfcfcf;
+}
+
+.remove-btn {
+  background-color: #fff;
+  margin-right: 1rem;
+}
+
+.title,
+.author {
+  margin-bottom: 1rem;
+  width: 60%;
+  height: 28px;
+  border: 2px solid black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-add {
+  background-color: #fff;
+  align-self: flex-end;
+  margin: 0 20%;
+  height: 28px;
+  width: 64px;
+}
+
+.book-author {
+  margin-left: 1rem;
+}
+
+.header {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.nav a,
+.header a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav a {
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.list-nav,
+.add-nav {
+  border-right: 2px solid black;
+}
+
+.header a {
+  padding-left: 1rem;
+}
+
+h1,
+h2 {
+  font-size: 32px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-p {
+  text-align: start;
+}
+
+footer {
+  border: 2px solid black;
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 1rem);
+}

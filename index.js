@@ -1,6 +1,6 @@
 import navSection from './modules/navbar.js';
 import BookCollection from './modules/class.js';
-import { DateTime } from './node_modules/luxon/src/luxon.js';
+import { DateTime } from './modules/luxon.js';
 
 navSection('list-nav');
 const navList = ['list-nav', 'add-nav', 'contact-nav'];

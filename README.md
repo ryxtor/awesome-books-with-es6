@@ -1,6 +1,6 @@
-# RE Global Summit 2022
+# Awesome Books With ES6
 
-> This is the first capstone project from Microverse course. This capstone is about recreate [this web page design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+>  This project is to re-build the Awesome Books project using ES6 syntax and divide the code into modules.
 
 ![screenshot](src/screenshot.png)
 

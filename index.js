@@ -1,5 +1,6 @@
 import navSection from './modules/navbar.js';
 import BookCollection from './modules/class.js';
+import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 navSection('list-nav');
 const navList = ['list-nav', 'add-nav', 'contact-nav'];
@@ -18,3 +19,11 @@ btnAdd.addEventListener('click', () => {
   runClass.addBooks();
   runClass.displayBooks();
 });
+
+const now = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
+document.getElementById('date').innerHTML = now;
+
+setInterval(() => {
+  const now = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
+  document.getElementById('date').innerHTML = now;
+}, 1000);

@@ -29,6 +29,7 @@ ul {
 .remove-btn {
   background-color: #fff;
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 .title,
@@ -51,6 +52,7 @@ form {
   margin: 0 20%;
   height: 28px;
   width: 64px;
+  cursor: pointer;
 }
 
 .book-author {
@@ -105,4 +107,8 @@ footer {
   position: absolute;
   bottom: 0;
   width: calc(100% - 1rem);
+}
+
+#date {
+  text-align: end;
 }

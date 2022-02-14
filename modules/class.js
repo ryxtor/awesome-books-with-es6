@@ -57,6 +57,6 @@ export default class BookCollection {
       this.author = inputAuthor.value, this.id = newId));
     localStorage.setItem('book_author', JSON.stringify(this.books));
     inputTitle.value = '';
-    inputAuthor.value= '';
+    inputAuthor.value = '';
   }
 }

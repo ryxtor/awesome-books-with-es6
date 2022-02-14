@@ -2,7 +2,7 @@ const inputTitle = document.getElementById('title');
 const inputAuthor = document.getElementById('author');
 const ul = document.querySelector('ul');
 
-export class BookCollection {
+export default class BookCollection {
   constructor(title, author, id) {
     this.title = title;
     this.author = author;

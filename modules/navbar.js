@@ -1,4 +1,4 @@
-export function navSection(navItem) {
+export default function navSection(navItem) {
   const booklist = document.getElementById('books');
   const addBook = document.getElementById('add-books');
   const contact = document.getElementById('contact');
